@@ -13,7 +13,7 @@
     var newFacts = [];
     var i = 0;
     while (i < facts.length) {
-        newFacts.push(facts[i] +"!!!");
+        newFacts.push(facts[i] + "!!!");
         i++;
     }
     return newFacts;
