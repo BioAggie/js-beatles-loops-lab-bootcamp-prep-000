@@ -1,30 +1,30 @@
-'use strict';
-
- function theBeatlesPlay(players, instruments) {
-    var allPlayers = [];
-    for (var i=0; i < players.length; i++) {
-        allPlayers.push(players[i] + " plays " + instruments[i]);
-    }
-    return allPlayers;
+function theBeatlesPlay(musicians, instruments) {
+  var beatlesArray = []
+  for (var i = 0; i < musicians.length; i++) {
+    beatlesArray.push(musicians[i] + " plays " + instruments[i])
+  }
+  return beatlesArray
 }
-
- function johnLennonFacts() {
-    var facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
-    var newFacts = [];
-    var i = 0;
-    while (i < facts.length) {
-        newFacts.push(facts[i] + "!!!");
-        i++;
-    }
-    return newFacts;
+ const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+];
+ function johnLennonFacts(facts) {
+  var lennonFacts = []
+  var i = 0
+  while(facts[i]) {
+    lennonFacts.push(facts[i] + "!!!");
+    i++
+  }
+  return lennonFacts
 }
-
- function iLoveTheBeatles(num) {
-    var love = [];
-    do {
-        love.push("I love the Beatles!");
-        num++;
-    } while (num < 15);
-    
-    return love;
+ function iLoveTheBeatles(number) {
+  var beatlesArray = []
+  do {
+    beatlesArray.push("I love the Beatles!");
+    number++
+    } while (number < 15);
+  return beatlesArray
 }
